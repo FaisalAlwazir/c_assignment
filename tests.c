@@ -108,5 +108,5 @@ void test(){
 
 
 
-    printf("\n\nFound %d errors", errorCount);
+    printf("Test found %d errors\n", errorCount);
 }
