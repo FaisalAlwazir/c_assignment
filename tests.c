@@ -34,7 +34,7 @@ void test_single(int *errorCount) {
     }
     int fatorials[5] = {0,1,2,0,0};
 
-    vector r = factorial(v, 3);
+    vector r = modulate(v, 3);
 
     for (int i = 0; i < r.length; i++) {
         if (r.values[i] != fatorials[i]) {

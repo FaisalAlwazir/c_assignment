@@ -78,7 +78,7 @@ double average_of_vector(vector v) {
     return (double) sum_of_vector(v) / v.length;
 }
 
-vector factorial(vector v, int number) {
+vector modulate(vector v, int number) {
     vector r;
     r.length = v.length;
     for (int i = 0; i < r.length; i++) {

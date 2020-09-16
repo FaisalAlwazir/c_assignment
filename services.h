@@ -25,7 +25,7 @@ int sum_of_vector(vector v);
 
 double average_of_vector(vector v);
 
-vector factorial(vector v, int number);
+vector modulate(vector v, int number);
 
 int smallest_of_vector(vector v);
 
