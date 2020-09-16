@@ -75,11 +75,8 @@ int sum_of_vector(vector v){
 }
 
 double average_of_vector(vector v){
-    double r =0;
-    for (int i = 0; i < v.length; i++) {
-        r += v.values[i];
-    }
-    return r / v.length;
+
+    return (double)sum_of_vector(v) / v.length;
 }
 
 vector factorial(vector v, int number){

@@ -21,10 +21,6 @@ void print_vector(vector v);
 
 void enter_vector_values(vector *v);
 
-vector add_two_vectors(vector v1, vector v2);
-
-vector subtract_two_vectors(vector v1, vector v2);
-
 int sum_of_vector(vector v);
 
 double average_of_vector(vector v);
@@ -36,6 +32,11 @@ int smallest_of_vector(vector v);
 int largest_of_vector(vector v);
 
 void nullify_vector(vector *v);
+
+vector add_two_vectors(vector v1, vector v2);
+
+vector subtract_two_vectors(vector v1, vector v2);
+
 
 void print_vector_report(vector v);
 
