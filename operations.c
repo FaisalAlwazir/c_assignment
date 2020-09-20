@@ -117,6 +117,23 @@ void smallest() {
 
 }
 
+void nulling() {
+    system("cls");
+    printf("        Nullifing vector \n\n");
+    printf("        Vector\n\n");
+    vector v1 = new_vector_input();
+    enter_vector_values(&v1);
+    system("cls");
+    printf("Result:\n   ");
+    print_vector(v1);nullify_vector(&v1);
+    printf(" nullified is ");
+    print_vector(v1);
+    printf("\n\n\nPress ENTER to continue..");
+    getch();
+
+
+}
+
 void sumAll() {
     system("cls");
     printf("        Finding the sum of all the elements \n\n");
@@ -197,6 +214,13 @@ int startScreen() {
 
         case 7:
             smallest();
+            system("cls");
+            printf("\n");
+            startScreen();
+            return 0;
+
+        case 8:
+            nulling();
             system("cls");
             printf("\n");
             startScreen();
