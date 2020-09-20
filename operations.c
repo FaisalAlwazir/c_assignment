@@ -243,7 +243,7 @@ int startScreen() {
 
 int display() {
     printf("\n                 ****         Welcome to my program        ****        \n\n");
-    system("cls");
+
 
     return startScreen();
 }
